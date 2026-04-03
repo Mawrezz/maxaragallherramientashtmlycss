@@ -9,14 +9,14 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
+    "autoprefixer": "^10.4.27",
     "parcel": "^2.14.0",
+    "postcss": "^8.5.8",
     "sass": "^1.99.0"
   },
   "browserslist": [
-    "defaults",
     "last 2 versions",
     "not dead",
-    "> 0.5%",
     "ie >= 11"
   ],
   "dependencies": {
