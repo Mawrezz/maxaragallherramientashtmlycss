@@ -4,11 +4,22 @@
   "version": "0.0.0",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.14.0",
+    "sass": "^1.99.0"
+  },
+  "browserslist": [
+    "defaults",
+    "last 2 versions",
+    "not dead",
+    "> 0.5%",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "sweetalert2": "^11.26.24"
   }
 }

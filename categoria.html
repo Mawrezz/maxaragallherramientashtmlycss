@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <title>Categoria</title>
+        <meta name="description" content="Lista de recetas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <script type="module" src="app.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sniglet:wght@400;800&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+                <div class="contenidoheader">
+                                <a class="logonavbar" href="index.html">VEGGIERECIPES
+                                        <img src="img/favicon.png" alt="logo">
+                                </a>
+                        <nav class="navbar">
+                                <a href="categoria.html">RECETAS</a>
+                                <a href="links.html">ENLACES</a>
+                        </nav>
+                </div>
+        </header>
+        <div class="recetasBody">
+                <div class="recetasContenedorPrincipal">
+                        <header class="recetasCabecera">
+                                <h1 class="recetasTituloWeb">Explorar recetas</h1>
+                        </header>
+                        <div class="recetasCuerpo">
+                                <aside class="recetasMenuLateral">
+                                        <nav class="recetasNav">
+                                                <ul class="recetasListaNav">
+                                                        <li class="recetasItemNav">
+                                                                <a href="categoria.html#sopa" class="recetasEnlaceNav">SOPAS Y CREMAS</a>
+                                                        </li>
+                                                        <li class="recetasItemNav">
+                                                                <a href="categoria.html#plato" class="recetasEnlaceNav">PLATOS PRINCIPLAES</a>
+                                                        </li>
+                                                        <li class="recetasItemNav">
+                                                                <a href="categoria.html#ensalada" class="recetasEnlaceNav">ENSALADAS</a>
+                                                        </li>
+                                                </ul>
+                                        </nav>
+                                        <div class="recetasBuscadorCaja">
+                                                <input type="text" class="recetasInputBuscar" placeholder="Buscar...">
+                                                <img src="img/icon-search.svg" alt="buscar">
+                                        </div>
+                                </aside>
+                                <main class="recetasContenido">
+                                        <section class="recetasSeccion">
+                                                <h2 id="sopa" class="recetasTituloSeccion">Sopas y cremas</h2>
+                                                <div class="recetasCuadricula">
+                                                        <article class="recetasTarjeta">
+                                                                <div class="recetasTarjetaNegra">
+                                                                        <h3 class="recetasObraTitulo">Crema caliente de tomate y verduras</h3>
+                                                                        <p class="recetasObraAutor">30 minutos</p>
+                                                                        <a class="recetasBotonFicha" href="det1.html">Ver más</a>
+                                                                </div>
+                                                                <div class="recetasTarjetaBlanca">
+                                                                        <img src="img/receta1.jpg" alt="receta1">
+                                                                </div>
+                                                        </article>
+                                                        <article class="recetasTarjeta">
+                                                                <div class="recetasTarjetaNegra">
+                                                                        <h3 class="recetasObraTitulo">Crema de calabaza con pipas tostadas</h3>
+                                                                        <p class="recetasObraAutor">45 minutos</p>
+                                                                        <a class="recetasBotonFicha" href="det2.html">Ver más</a>
+                                                                </div>
+                                                                <div class="recetasTarjetaBlanca">
+                                                                        <img src="img/receta2.jpg" alt="receta2">
+
+                                                                </div>
+                                                        </article>
+                                                        <article class="recetasTarjeta">
+                                                                <div class="recetasTarjetaNegra">
+                                                                        <h3 class="recetasObraTitulo">Velouté de zanahoria con leche de coco</h3>
+                                                                        <p class="recetasObraAutor">45 minutos</p>
+                                                                        <button id="btn1" class="recetasBotonFicha">No disponible</button>
+                                                                        <script type="module" src="app.js"></script>
+                                                                </div>
+                                                                <div class="recetasTarjetaBlanca">
+                                                                        <img src="img/receta3.jpg" alt="receta3">
+                                                                </div>
+                                                        </article>
+                                                </div>
+                                                <div class="recetasPieSeccion">
+                                                        <button class="recetasBotonVerTodo"></button>
+                                                </div>
+                                        </section>
+                                        <section class="recetasSeccion">
+                                                <h2 id="plato" class="recetasTituloSeccion">Platos principales</h2>
+                                                <div class="recetasCuadricula">
+                                                        <article class="recetasTarjeta">
+                                                                <div class="recetasTarjetaNegra">
+                                                                        <h3 class="recetasObraTitulo">Hamburguesa de carne vegana</h3>
+                                                                        <p class="recetasObraAutor">45 minutos</p>
+                                                                        <button id="btn2" class="recetasBotonFicha">No disponible</button>
+                                                                        <script type="module" src="app.js"></script>
+                                                                </div>
+                                                                <div class="recetasTarjetaBlanca">
+                                                                        <img src="img/receta4.jpg" alt="receta4">
+                                                                </div>
+                                                        </article>
+                                                        
+                                                </div>
+                                                <div class="recetasPieSeccion">
+                                                        <button class="recetasBotonVerTodo"></button>
+                                                </div>
+                                        </section>
+                                        <section class="recetasSeccion">
+                                                <h2 id="ensalada" class="recetasTituloSeccion">Ensaladas</h2>
+                                                <div class="recetasCuadricula">
+                                                        <article class="recetasTarjeta">
+                                                                <div class="recetasTarjetaNegra">
+                                                                        <h3 class="recetasObraTitulo">Bocados de ternera vegana con miel y soja</h3>
+                                                                        <p class="recetasObraAutor">15 minutos</p>
+                                                                        <button id="btn3" class="recetasBotonFicha">No disponible</button>
+                                                                        <script type="module" src="app.js"></script>
+                                                                </div>
+                                                                <div class="recetasTarjetaBlanca">
+                                                                        <img src="img/receta5.jpg" alt="receta5">
+                                                                </div>
+                                                        </article>
+                                                        <article class="recetasTarjeta">
+                                                                <div class="recetasTarjetaNegra">
+                                                                        <h3 class="recetasObraTitulo">Heura con gírgolas al aceite</h3>
+                                                                        <p class="recetasObraAutor">15 minutos</p>
+                                                                        <button id="btn4" class="recetasBotonFicha">No disponible</button>
+                                                                        <script type="module" src="app.js"></script>
+                                                                </div>
+                                                                <div class="recetasTarjetaBlanca">
+                                                                        <img src="img/receta6.jpg" alt="receta6">
+                                                                </div>
+                                                        </article>
+                                                </div>
+                                                <div class="recetasPieSeccion">
+                                                        <button class="recetasBotonVerTodo"></button>
+                                                </div>
+                                        </section>
+                                </main>
+                        </div>
+                </div>
+        </div>
+        <footer class="piesitio">
+                        <div>
+                                <p class="textofooter">UOC, 2026. Max Aragall Borrás</p>
+                                <ul class="menu-legal2">
+                                        <li><a href="#">Aviso legal</a></li>
+                                        <li><a href="#">Política de privacidad</a></li>
+                                        <li><a href="#">Política de cookies</a></li>
+                                </ul>
+                        </div>
+        </footer>
+</body>
+</html>
