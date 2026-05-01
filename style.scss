@@ -15,7 +15,7 @@ $fuente-principal: "Varela Round", sans-serif;
 }
 
 .containerindex{
-        background-image: url("img/home-bg.jpeg");
+        background-image: url("img/home-bg.webp");
         background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
@@ -61,7 +61,7 @@ $fuente-principal: "Varela Round", sans-serif;
         font-weight: 900;
         font-size: 600%;
         margin-bottom: -1%;
-        padding-top: 1%;
+        padding-top: 0%;
         padding-bottom: 1%;
 }
 
@@ -267,7 +267,7 @@ $fuente-principal: "Varela Round", sans-serif;
 .recetasTarjeta {
         display: flex;
         height: 200px;
-        background-image: url("img/home-bg.jpeg");
+        background-image: url("img/home-bg.webp");
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -545,6 +545,38 @@ $fuente-principal: "Varela Round", sans-serif;
         border: none;
 }
 
+.icono-hoja {
+        width: 70px;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 10px;
+        animation: brisa 3s ease-in-out infinite;
+        transform-origin: bottom center;
+}
+
+@keyframes brisa {
+        0%, 100% { transform: rotate(2deg); }
+        50% { transform: rotate(-5deg); }
+}
+
+.icono-hoja:hover {
+        filter: brightness(1.2);
+        cursor: pointer;
+}
+
+.llama-mini {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        vertical-align: top;
+        margin: 0 5px;
+        background: linear-gradient(to bottom, #ff4500, #ffca00);  
+        clip-path: polygon(50% 0%, 65% 25%, 85% 45%, 90% 65%, 80% 90%, 50% 100%, 20% 90%, 10% 65%, 15% 45%, 35% 25%, 45% 35%, 48% 20%, 50% 0%);
+}
+
 @media (min-width: 1024px) {
         .content {
                 max-width: 1200px;
@@ -655,6 +687,10 @@ $fuente-principal: "Varela Round", sans-serif;
         .datoMetaDesktop {
                 display: none;
         }
+
+        .llama-mini {
+                display: none;
+        }
 }
 
 @media (max-width: 768px) {
@@ -746,6 +782,10 @@ $fuente-principal: "Varela Round", sans-serif;
         .datoMetaDesktop {
                 display: none;
         }
+
+        .llama-mini {
+                display: none;
+        }
 }
 
 @media (max-width: 1024px) {
@@ -795,6 +835,6 @@ $fuente-principal: "Varela Round", sans-serif;
     }
 
     .containerindex {
-        background-image: url("img/home-peque.jpg");
+        background-image: url("img/home-peque.webp");
     }
 }
